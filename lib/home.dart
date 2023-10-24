@@ -46,7 +46,6 @@ class _HomePageState extends State<HomePage> {
             Container(
               margin: EdgeInsets.only(
                 top: MediaQuery.of(context).size.height * 0.56,
-                left: MediaQuery.of(context).size.width * 0.08,
               ),
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -78,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                   SizedBox(width: 40),
                   Text('Rishabh Varshney',
                       style:
-                          TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
+                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ],
               ),
               const Row(children: [SizedBox(height: 20)]),
@@ -90,29 +89,29 @@ class _HomePageState extends State<HomePage> {
                       Icon(
                         FontAwesomeIcons.envelope,
                         color: Colors.black,
-                        size: 15,
+                        size: 12,
                       ),
                       SizedBox(width: 10),
                       Text('right.rishabh@gmail.com',
                           style: TextStyle(
                               color: Colors.black,
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold)),
                     ],
                   ),
-                  Row(children: [SizedBox(width: 40)]),
+                  Row(children: [SizedBox(width: 44)]),
                   Row(
                     children: [
                       Icon(
                         FontAwesomeIcons.phone,
                         color: Colors.black,
-                        size: 13,
+                        size: 11,
                       ),
-                      SizedBox(width: 10),
-                      Text('7078202575',
+                      SizedBox(width: 9),
+                      Text('+91 7078202575',
                           style: TextStyle(
                               color: Colors.black,
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold)),
                     ],
                   )
@@ -128,13 +127,13 @@ class _HomePageState extends State<HomePage> {
                       Icon(
                         FontAwesomeIcons.cakeCandles,
                         color: Colors.black,
-                        size: 13,
+                        size: 11,
                       ),
                       SizedBox(width: 10),
                       Text('11th September, 2002',
                           style: TextStyle(
                               color: Colors.black,
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold)),
                     ],
                   ),
@@ -144,13 +143,13 @@ class _HomePageState extends State<HomePage> {
                       Icon(
                         FontAwesomeIcons.locationDot,
                         color: Colors.black,
-                        size: 15,
+                        size: 12,
                       ),
                       SizedBox(width: 10),
                       Text('Gurugram, India',
                           style: TextStyle(
                               color: Colors.black,
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold)),
                     ],
                   )
@@ -163,7 +162,7 @@ class _HomePageState extends State<HomePage> {
                   SizedBox(width: 40),
                   Text('About Me',
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
               Column(
@@ -177,7 +176,7 @@ class _HomePageState extends State<HomePage> {
                         "🎓  Education",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                       children: <Widget>[
@@ -191,7 +190,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('B.Tech',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -199,21 +198,21 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('College : PIET, Panipat',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Branch : Computer Science (AI & ML)',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('CGPA : 8.6',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             SizedBox(height: 10),
@@ -222,7 +221,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('Intermediate',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -230,21 +229,21 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('School : Brilliant Public School',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Stream : PCM with CS',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Percentage : 76%',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             SizedBox(height: 10),
@@ -262,7 +261,7 @@ class _HomePageState extends State<HomePage> {
                         "👩🏻‍💻  B.Tech Projects",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                       children: <Widget>[
@@ -276,7 +275,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('Flower Classification ANN Model',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -284,17 +283,18 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Member: 1',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                  'Implemented Image Classification using \nANN to identify the flower type from the \ninput images. \nAnd used Gradio to create the interface \nof the project.',
-                                  style: TextStyle(fontSize: 18),
-                                  maxLines: 5,
+                                Flexible(
+                                  child: Text(
+                                      'Implemented Image Classification using ANN to identify the flower type from the input images. And used Gradio to create the interface of the project.',
+                                      style: TextStyle(fontSize: 15)),
                                 ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 10),
@@ -303,7 +303,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('Text Summarization using ML',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -311,15 +311,18 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Member: 4',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                    'Automating the extraction of key information \nfrom large volumes of text, condensing it \ninto concise summaries, making content \nmore accessible and efficient to consume.',
-                                    style: TextStyle(fontSize: 18)),
+                                Flexible(
+                                  child: Text(
+                                      'Automating the extraction of key information from large volumes of text, condensing it into concise summaries, making content more accessible and efficient to consume.',
+                                      style: TextStyle(fontSize: 15)),
+                                ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 20)
@@ -337,7 +340,7 @@ class _HomePageState extends State<HomePage> {
                         "💼  Internships",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                       children: <Widget>[
@@ -351,7 +354,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('Otomator Technologies',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -359,24 +362,25 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Position : Full Stack Developer',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Duration : 14 Months',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                  'Project : \n- Build APIs and webhooks for mobile app \nto control the home appliances using \nMQTT Broker. \n- Got a hands-on on AWS S2 Bucket. \n ',
-                                  style: TextStyle(fontSize: 18),
-                                  maxLines: 5,
+                                Flexible(
+                                  child: Text(
+                                      'Project : - Build APIs and webhooks for mobile app to control the home appliances using MQTT Broker. - Got a hands-on on AWS S2 Bucket.  ',
+                                      style: TextStyle(fontSize: 15)),
                                 ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 10),
@@ -385,7 +389,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('CodeClause',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -393,24 +397,25 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Position : Data Science Intern',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Duration : 1 Month',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                  'Project : Developed a recommendation \nsystem for retail stores using a dataset. \nImplemented algorithms and techniques \nto offer personalized product suggestions.',
-                                  style: TextStyle(fontSize: 18),
-                                  maxLines: 5,
+                                Flexible(
+                                  child: Text(
+                                      'Project : Developed a recommendation system for retail stores using a dataset. Implemented algorithms and techniques to offer personalized product suggestions.',
+                                      style: TextStyle(fontSize: 15)),
                                 ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 10),
@@ -428,7 +433,7 @@ class _HomePageState extends State<HomePage> {
                         "📂  Side Projects",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                       children: <Widget>[
@@ -442,7 +447,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('BuildChat',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -450,17 +455,18 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Member: 5',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                  'A cloud-based team collaboration platform \ndesigned to facilitate communication and \nproductivity within organizations. It offers \nreal-time messaging and file sharing with \neveryone among multiple channels.',
-                                  style: TextStyle(fontSize: 18),
-                                  maxLines: 5,
+                                Flexible(
+                                  child: Text(
+                                      'A cloud-based team collaboration platform designed to facilitate communication and productivity within organizations. It offers real-time messaging and file sharing with everyone among multiple channels.',
+                                      style: TextStyle(fontSize: 15)),
                                 ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 20),
@@ -469,7 +475,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(width: 15, height: 25),
                                 Text('E-commerce site with Trending Features',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -477,15 +483,18 @@ class _HomePageState extends State<HomePage> {
                               children: [
                                 SizedBox(width: 15, height: 25),
                                 Text('Member: 2',
-                                    style: TextStyle(fontSize: 18)),
+                                    style: TextStyle(fontSize: 15)),
                               ],
                             ),
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(
-                                    'Created admin and client sections, \nstreamlined ordering system, monthly \nsubscription option, trial product selection, \nand inbuilt wallet system.',
-                                    style: TextStyle(fontSize: 18)),
+                                Flexible(
+                                  child: Text(
+                                      'Created admin and client sections, streamlined ordering system, monthly subscription option, trial product selection, and inbuilt wallet system.',
+                                      style: TextStyle(fontSize: 15)),
+                                ),
+                                SizedBox(width: 15, height: 25),
                               ],
                             ),
                             SizedBox(height: 20),
@@ -503,7 +512,7 @@ class _HomePageState extends State<HomePage> {
                         "🎮  Hobbies",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold),
                       ),
                       children: <Widget>[
@@ -515,9 +524,9 @@ class _HomePageState extends State<HomePage> {
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text(' ♟  Learning Chess',
+                                Text('  ♟  Learning Chess',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -525,9 +534,9 @@ class _HomePageState extends State<HomePage> {
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text('🏸 Volleyball and Badminton',
+                                Text('🏸  Volleyball and Badminton',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -535,9 +544,9 @@ class _HomePageState extends State<HomePage> {
                             Row(
                               children: [
                                 SizedBox(width: 15, height: 25),
-                                Text('🕹 Playing Online Games',
+                                Text('🕹  Playing Online Games',
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -554,7 +563,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(width: 40),
                       Text('My Skills',
                           style: TextStyle(
-                              fontSize: 25, fontWeight: FontWeight.bold)),
+                              fontSize: 20, fontWeight: FontWeight.bold)),
                     ],
                   ),
                   const SizedBox(height: 10),
@@ -566,8 +575,8 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Container(
                             margin: const EdgeInsets.only(left: 35),
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -584,7 +593,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'Android',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
@@ -592,8 +601,8 @@ class _HomePageState extends State<HomePage> {
                           ),
                           const SizedBox(width: 10),
                           Container(
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -610,7 +619,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'SQL',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
@@ -619,8 +628,8 @@ class _HomePageState extends State<HomePage> {
                           const SizedBox(width: 10),
                           Container(
                             margin: const EdgeInsets.only(right: 35),
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -637,7 +646,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'Github',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
@@ -651,8 +660,8 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Container(
                             margin: const EdgeInsets.only(left: 35),
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -669,7 +678,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'React',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
@@ -677,8 +686,8 @@ class _HomePageState extends State<HomePage> {
                           ),
                           const SizedBox(width: 10),
                           Container(
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -695,7 +704,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'Python',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
@@ -704,8 +713,8 @@ class _HomePageState extends State<HomePage> {
                           const SizedBox(width: 10),
                           Container(
                             margin: const EdgeInsets.only(right: 35),
-                            width: 100,
-                            height: 90,
+                            width: 90,
+                            height: 80,
                             child: Card(
                               margin: const EdgeInsets.all(0),
                               color: const Color(0xff252525),
@@ -722,7 +731,7 @@ class _HomePageState extends State<HomePage> {
                                   Text(
                                     'Docker',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 16),
+                                        color: Colors.white, fontSize: 12),
                                   )
                                 ],
                               ),
