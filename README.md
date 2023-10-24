@@ -1,16 +1,25 @@
-# rishabh_profile
+# Flutter Portfolio Project
+![Flutter](https://img.shields.io/badge/Flutter-2.0-blue) ![Dart](https://img.shields.io/badge/Dart-2.12-green)
 
-A new Flutter project.
+### Run this project 
 
-## Getting Started
+```
+Step 1: Clone this repository
 
-This project is a starting point for a Flutter application.
+$ git clone https://github.com/var-rishabh/rishabh_profile.git
+```
+```
+Step 2: Move to this folder
 
-A few resources to get you started if this is your first Flutter project:
+$ cd rishabh_profile
+```
+```
+Step 3: Download all the dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+$ flutter pub get
+```
+```
+Step 5: Run the project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+$ flutter run
+```
