@@ -75,7 +75,8 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   SizedBox(width: 40),
-                  Text('Rishabh Varshney',
+                  Text(
+                      'Rishabh Varshney is the Greatest of all time. He will conquer the world. So stop teasing him',
                       style:
                           TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ],
@@ -600,7 +601,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           const SizedBox(width: 10),
-                          Container(
+                          SizedBox(
                             width: 90,
                             height: 80,
                             child: Card(
@@ -685,7 +686,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           const SizedBox(width: 10),
-                          Container(
+                          SizedBox(
                             width: 90,
                             height: 80,
                             child: Card(
