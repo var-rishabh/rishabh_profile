@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   SizedBox(width: 40),
                   Text(
-                      'Rishabh Varshney is the Greatest of all time. He will conquer the world. So stop teasing him',
+                      'Rishabh Varshney',
                       style:
                           TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ],
